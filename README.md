@@ -3,20 +3,18 @@
 Erik Arbelo-Nguyễn, Jake Boden, Kenneth Chang
 
 ## Dataset
+
+Wildfire data was posted on Kaggle, and was originally sourced from the United States Forest Service's Fire Program Analysis system. The dataset contains wildfire data from 1992 to 2015 across the entire United States. The dataset originally came in SQLite, and was then converted to CSV format. For our project, we reduced the dataset down only to records for the state of California and removed any redundant columns and entries.
+
 https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires
-* SQLite
-* Converted dataset to a .CSV file
-* Made the dataset more digestible by:
-  * Only including California
-  * Removing redundant columns
 
 ## Project Thesis
-The genesis of our project was to identify if California wildfires have become more severe over time. In addition, we wanted to see if we could define the cause(s) that have exacerbated or potentially placated this circumstance.
+The genesis of our project was to identify if California wildfires have become more severe over time. In addition, we wanted to see what other factors would correlate with or contribute to any observed trends in the data.
 
 ## Defining the Analysis
-The first thing we had to do was define what a more severe fire looks like. Are wildfires worse because there were more of them or because they burned more? (Acres burned versus number of fires?) On a similar note, is a wildfire more severe simply if it is more destructive? For example, did it burn more buildings, homes, infrastructure? The challenge with the latter, however, is that the dataset did not provide sufficient data to analyze that. Therefore, we decided to define that wildfires are more severe if they burn more acreage.
+The first thing to do was to define wildfire severity. Are wildfires worse because there were more occurrences or because they burned more acres? On a similar note, is a wildfire more severe simply if it destroys more property? However,the dataset did not provide sufficient data to analyze the latter. Therefore, we decided to define wildfire severity by the acreage burned.
 
-Another interesting piece we wanted to analyze was the human element. Are wildfires caused by mankind worse than those caused by nature? Are wildfires caused by mankind mostly accidental or malicious and intentional?
+Another interesting piece we wanted to analyze was the human element. Are wildfires caused by mankind worse than those caused by nature? Are wildfires caused by mankind mostly accidental or intentional?
 
 ## Analysis
 We focused our analysis on 2,000 wildfires across California from 2001 to 2020 which comprised of each year’s 100 most severe wildfires. The analysis consists of two parts: a brief analysis of the acreage burned and then a comparison of fires in Northern California and Southern California.
